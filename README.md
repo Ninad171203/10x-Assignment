@@ -24,9 +24,6 @@ A minimal **custom DWA** (Dynamic Window Approach) local planner designed to wor
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 
-# Drop this package in:
-# (If you downloaded the zip from ChatGPT, unzip into ~/ros2_ws/src)
-# e.g., unzip dwa_local_planner_ros2_humble.zip -d ~/ros2_ws/src
 
 # Install TurtleBot3 sim pkgs if needed
 sudo apt update
@@ -106,7 +103,7 @@ Key params you may want to tune:
 ## 5) Expected Output
 - TurtleBot3 should **move toward the goal** while **avoiding obstacles**.
 - You will see meaningful `INFO` / `WARN` logs from the node (e.g., when no valid trajectory exists).
-- A **short README** (this file) with setup instructions is included.
+- A **short README**  with setup instructions is included.
 - RViz Marker shows the selected local path in `base_link` frame.
 
 ---
