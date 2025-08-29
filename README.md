@@ -17,16 +17,20 @@ A minimal **custom DWA** (Dynamic Window Approach) local planner designed to wor
 
 ---
 desktop/
-custom_dwa_planner/
-├─ CMakeLists.txt
-├─ package.xml
-├─ README.md
-├─ launch/
-│  └─ custom_dwa_planner.launch.py
-├─ src/
-│  └─ custom_dwa_planner_node.py
-└─ config/
-   └─ params.yaml
+   custom_dwa_planner/
+      ├─ CMakeLists.txt
+
+         ├─ package.xml
+            
+            ├─ README.md
+               
+               ├─ launch/
+         
+                  │  └custom_dwa_planner.launch.py
+                      ├─ src/
+                  │  └─ custom_dwa_planner_node.py
+                      └─ config/
+                      └─ params.yaml
 
 
 ## 1) Install & Build
